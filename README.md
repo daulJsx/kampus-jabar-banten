@@ -1,75 +1,61 @@
-# Nuxt Minimal Starter
+# Kampus Jabar Banten Landing Page
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Aplikasi web untuk membantu siswa mencari dan membandingkan informasi perguruan tinggi di Jawa Barat dan Banten, membantu mereka memilih kampus dan jurusan yang sesuai dengan minat dan passion mereka.
 
-## Setup
+## Daftar Isi
+- [Tentang Proyek](#tentang-proyek)
+- [Prasyarat](#prasyarat)
+- [Instalasi](#instalasi)
+- [Menjalankan Proyek](#menjalankan-proyek)
+- [API yang Digunakan](#api-yang-digunakan)
+- [Kontribusi](#kontribusi)
+- [Lisensi](#lisensi)
 
-Make sure to install dependencies:
+## Tentang Proyek
+Proyek ini adalah aplikasi Vue.js yang menyediakan data kampus dan program studi yang ditawarkan di wilayah Jawa Barat dan Banten. Pengguna dapat melihat informasi tentang berbagai jurusan, layanan, dan informasi kontak kampus terkait.
 
-```bash
-# npm
-npm install
+## Prasyarat
+Sebelum memulai, pastikan Anda memiliki:
+- **Node.js** dan **npm** terinstal di sistem Anda.
+- **Vue CLI** untuk mengelola dan menjalankan proyek.
 
-# pnpm
-pnpm install
+## Instalasi
+1. **Clone** repositori ini:
+   ```bash
+   git clone https://github.com/username/kampus-jabar-banten.git
+   ```
+2. **Masuk ke direktori proyek**:
+   ```bash
+   cd kampus-jabar-banten
+   ```
+3. **Instal dependensi**:
+   ```bash
+   npm install
+   ```
 
-# yarn
-yarn install
+## Menjalankan Proyek
+1. Jalankan server lokal untuk pengembangan:
+   ```bash
+   npm run dev -- -o
+   ```
+2. Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat aplikasi.
 
-# bun
-bun install
-```
+## API yang Digunakan
+Aplikasi ini menggunakan endpoint API berikut:
+- **/open/college/all** - Mendapatkan daftar semua kampus.
+- **/open/college/{id}** - Mendapatkan detail kampus berdasarkan ID.
+- **/open/studyprogram/all** - Mendapatkan daftar program studi.
+- **/open/studyprogram/{id}** - Mendapatkan detail program studi berdasarkan ID.
 
-## Development Server
+Data API disusun untuk menampilkan informasi kampus dan jurusan sesuai bidang studi, dan juga menyediakan informasi tambahan seperti ikon bidang studi, kelas, dan deskripsi singkat.
 
-Start the development server on `http://localhost:3000`:
+## Kontribusi
+Kontribusi sangat diterima! Untuk melakukan kontribusi:
+1. Fork repositori.
+2. Buat branch fitur (`git checkout -b feature/AmazingFeature`).
+3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`).
+4. Push ke branch (`git push origin feature/AmazingFeature`).
+5. Buat Pull Request.
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Lisensi
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).
