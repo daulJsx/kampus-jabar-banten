@@ -1,0 +1,78 @@
+/* main.scss */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  min-height: 100vh;
+  padding: 0 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header h2,
+.header p {
+  text-align: center;
+}
+
+.header h2 {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.header p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 2rem;
+  color: #848b9d;
+}
+
+.divider-container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider {
+  flex: 1;
+  height: 1px;
+  background-color: #e6e9ed;
+  margin: 0 10px;
+}
+
+.load-more {
+  text-align: center;
+}
+.load-more a {
+  display: inline-block;
+  padding: 1rem 5rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0aa8c1;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #0aa8c1;
+  border-radius: 8px;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  svg {
+    display: none;
+  }
+}
