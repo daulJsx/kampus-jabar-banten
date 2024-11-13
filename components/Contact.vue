@@ -40,10 +40,10 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <img alt="Logo image" class="logo" src="../assets/images/full-logo.png" />
+      <img alt="Logo image" class="logo" src="~/assets/images/full-logo.png" />
       <span> Copyright © 2020 Kampus Jabar Banten </span>
       <a class="download-button__mobile" href="#">
-        <img alt="Google Play icon" src="../assets/images/playstore.png" />
+        <img alt="Google Play icon" src="~/assets/images/playstore.png" />
         Download Aplikasi
       </a>
     </div>

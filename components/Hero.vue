@@ -18,21 +18,21 @@
           <!-- Slide 1 -->
           <swiper-slide>
             <div class="hero-image">
-              <img src="../assets/images/hero-image.png" alt="Hero Image 1" />
+              <img src="~/assets/images/hero-image.png" alt="Hero Image 1" />
             </div>
           </swiper-slide>
 
           <!-- Slide 2 -->
           <swiper-slide>
             <div class="hero-image">
-              <img src="../assets/images/hero-image.png" alt="Hero Image 2" />
+              <img src="~/assets/images/hero-image.png" alt="Hero Image 2" />
             </div>
           </swiper-slide>
 
           <!-- Slide 3 -->
           <swiper-slide>
             <div class="hero-image">
-              <img src="../assets/images/hero-image.png" alt="Hero Image 3" />
+              <img src="~/assets/images/hero-image.png" alt="Hero Image 3" />
             </div>
           </swiper-slide>
         </swiper>

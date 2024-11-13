@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="logo">
-      <img alt="Logo image" src="../assets/images/full-logo.png" />
+      <img alt="Logo image" src="~/assets/images/full-logo.png" />
     </div>
     <div class="search-bar">
       <i class="fas fa-search"> </i>
