@@ -10,16 +10,16 @@
     <Features />
 
     <!-- Tentang Kami Section -->
-    <About />
+    <LazyAbout />
 
     <!-- Rekomendasi Kampus Section -->
-    <Kampus />
+    <LazyKampus />
 
     <!-- Rekomendasi Jurusan/Prodi Section -->
-    <Jurusan />
+    <LazyJurusan />
 
     <!-- Bagian Kontak atau footer tambahan jika diperlukan -->
-    <Contact />
+    <LazyContact />
   </div>
 </template>
 
