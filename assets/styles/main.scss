@@ -16,12 +16,10 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 0 2rem;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4rem;
 }
 
 .header h2,

@@ -71,14 +71,7 @@ export default {
 </script>
 
 <style scoped>
-.hero {
-  min-height: 100vh;
-  max-width: 95%;
-  margin: 0 auto 6rem auto;
-}
-
 .swiper {
-  max-width: 100%;
   margin-top: 2rem;
 }
 
@@ -95,10 +88,7 @@ export default {
 
 @media (min-width: 588px) {
   .hero {
-    min-height: 60vh;
-  }
-  .swiper {
-    max-width: 87%;
+    min-height: 30vh;
   }
 }
 
@@ -106,10 +96,6 @@ export default {
   .hero {
     min-height: 40vh;
     margin-bottom: 0;
-  }
-
-  .swiper {
-    max-width: 89%;
   }
 
   .hero-image img {

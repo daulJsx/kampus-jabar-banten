@@ -737,7 +737,7 @@
       fill="#D4D7E0"
     />
   </svg>
-  <section class="kampus">
+  <section>
     <div class="container">
       <div class="header">
         <h2>Rekomendasi Kampus</h2>
@@ -1014,5 +1014,11 @@ export default {
   text-decoration: none;
   font-weight: 500;
   margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  section {
+    margin-top: 2rem;
+  }
 }
 </style>

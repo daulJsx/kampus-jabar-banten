@@ -789,11 +789,6 @@ export default {
 </script>
 
 <style scoped>
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .vector {
   position: absolute;
   right: 67px;
@@ -808,9 +803,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 50px;
-  max-width: 83%;
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .content h1 {
@@ -827,8 +820,8 @@ export default {
   text-align: justify;
 }
 .cards {
-  align-self: center;
   display: grid;
+  align-self: center;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
@@ -891,6 +884,7 @@ export default {
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
+    gap: 2rem;
   }
 
   .content {
@@ -898,12 +892,16 @@ export default {
     width: 100%;
   }
 
+  .cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   .card {
-    width: 152px;
     height: 102px;
     flex-direction: column;
     align-items: start;
-    padding-left: 2respan;
   }
 
   .card .text {

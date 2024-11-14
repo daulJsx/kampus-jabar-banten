@@ -917,14 +917,12 @@ hr {
 
 @media (max-width: 768px) {
   .grid-container {
-    padding: 0 2rem;
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 576px) {
   .grid-container {
-    padding: 0 2rem;
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -935,8 +933,6 @@ hr {
 
   hr {
     display: block;
-    width: 90%;
-
     color: #e6e9ed;
     margin-top: 2rem;
   }

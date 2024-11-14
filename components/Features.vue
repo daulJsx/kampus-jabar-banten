@@ -1,46 +1,48 @@
 <template>
-  <div class="container">
-    <div class="step">
-      <div class="circle">1</div>
-      <div class="step-content">
-        <h1>Cari Kampus & Prodi</h1>
-        <p>
-          Consectetur adipiscing elit. Urna amet hac senectus in consequat orci
-          duis pellentesque.
-        </p>
+  <section>
+    <div class="bg-gradient">
+      <div class="step">
+        <div class="circle">1</div>
+        <div class="step-content">
+          <h1>Cari Kampus & Prodi</h1>
+          <p>
+            Consectetur adipiscing elit. Urna amet hac senectus in consequat
+            orci duis pellentesque.
+          </p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="circle">2</div>
+        <div class="step-content">
+          <h1>Bandingkan</h1>
+          <p>
+            Consectetur adipiscing elit. Urna amet hac senectus in consequat
+            orci duis pellentesque.
+          </p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="circle">3</div>
+        <div class="step-content">
+          <h1>Uji Potensi</h1>
+          <p>
+            Consectetur adipiscing elit. Urna amet hac senectus in consequat
+            orci duis pellentesque.
+          </p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="circle">4</div>
+        <div class="step-content">
+          <h1>Daftar</h1>
+          <p>
+            Consectetur adipiscing elit. Urna amet hac senectus in consequat
+            orci duis pellentesque.
+          </p>
+        </div>
       </div>
     </div>
-    <div class="step">
-      <div class="circle">2</div>
-      <div class="step-content">
-        <h1>Bandingkan</h1>
-        <p>
-          Consectetur adipiscing elit. Urna amet hac senectus in consequat orci
-          duis pellentesque.
-        </p>
-      </div>
-    </div>
-    <div class="step">
-      <div class="circle">3</div>
-      <div class="step-content">
-        <h1>Uji Potensi</h1>
-        <p>
-          Consectetur adipiscing elit. Urna amet hac senectus in consequat orci
-          duis pellentesque.
-        </p>
-      </div>
-    </div>
-    <div class="step">
-      <div class="circle">4</div>
-      <div class="step-content">
-        <h1>Daftar</h1>
-        <p>
-          Consectetur adipiscing elit. Urna amet hac senectus in consequat orci
-          duis pellentesque.
-        </p>
-      </div>
-    </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -50,16 +52,16 @@ export default {
 </script>
 
 <style scoped>
-.container {
+section {
+  min-height: 50vh;
+}
+.bg-gradient {
   background: linear-gradient(to right, #126abb, #0ab6c1);
   border-radius: 20px;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
-  width: 80%;
-  max-width: 1200px;
 }
 
 .step {
