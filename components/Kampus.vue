@@ -882,7 +882,7 @@ export default {
 .vector,
 .vector1 {
   position: absolute;
-  top: 98.6rem;
+  top: 102rem;
 }
 .vector {
   left: 13rem;

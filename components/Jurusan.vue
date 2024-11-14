@@ -844,11 +844,12 @@ export default {
 }
 
 .vector {
-  top: 235rem;
-  left: 5.8rem;
+  top: 243rem;
+  left: 7rem;
 }
 .vector1 {
-  top: 235rem;
+  top: 243rem;
+  left: 1rem;
 }
 
 .grid-container {

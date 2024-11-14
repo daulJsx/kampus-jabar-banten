@@ -792,12 +792,12 @@ export default {
 .vector {
   position: absolute;
   right: 67px;
-  top: 65.3rem;
+  top: 70rem;
 }
 .vector1 {
   position: absolute;
   right: 10rem;
-  top: 65.3rem;
+  top: 70rem;
 }
 .container {
   display: flex;

@@ -57,6 +57,9 @@ export default {
 </script>
 
 <style scoped>
+.container {
+  padding: 0 2rem;
+}
 .footer {
   background: linear-gradient(to right, #126abb, #0ab6c1);
   color: white;
