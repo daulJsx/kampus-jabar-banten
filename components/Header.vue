@@ -1,5 +1,6 @@
 <template>
   <header class="header">
+    <div>This is an auto-imported component</div>
     <div class="logo">
       <img alt="Logo image" src="~/assets/images/full-logo.png" />
     </div>

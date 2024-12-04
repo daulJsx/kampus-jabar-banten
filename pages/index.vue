@@ -20,6 +20,8 @@
 
     <!-- Bagian Kontak atau footer tambahan jika diperlukan -->
     <LazyContact />
+
+    <LazyCompToTest />
   </div>
 </template>
 
@@ -31,6 +33,7 @@ import About from "~/components/About.vue";
 import Kampus from "~/components/Kampus.vue";
 import Jurusan from "~/components/Jurusan.vue";
 import Contact from "~/components/Contact.vue";
+import CompToTest from "~/components/CompToTest.vue";
 
 export default {
   components: {
@@ -41,6 +44,7 @@ export default {
     Kampus,
     Jurusan,
     Contact,
+    CompToTest,
   },
 };
 </script>
