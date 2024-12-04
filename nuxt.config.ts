@@ -7,4 +7,5 @@ export default defineNuxtConfig({
     "@fortawesome/fontawesome-free/css/all.min.css",
     "@/assets/styles/main.scss",
   ],
+  modules: ["@nuxt/test-utils/module"],
 });

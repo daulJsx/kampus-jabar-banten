@@ -896,13 +896,17 @@ export default {
   flex-wrap: wrap;
   gap: 1.5rem;
   justify-content: center;
+  align-items: stretch;
 }
 .card {
-  width: 300px;
+  flex: 1 1 300px; /* Menetapkan lebar dasar 300px dan memungkinkan fleksibilitas */
+  max-width: 300px;
   border-radius: 15px;
   overflow: hidden;
   background-color: #fff;
   position: relative;
+  display: flex;
+  flex-direction: column; /* Mengatur layout vertikal agar card-body berada di bawah header */
 }
 .card-header {
   position: relative;
@@ -963,7 +967,9 @@ export default {
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0px 10px 20px 0px #eff1f6;
-  margin: 0 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 .card-title {
   font-size: 14px;
@@ -1004,7 +1010,7 @@ export default {
   color: #3c3b52;
 }
 .button {
-  display: block;
+  display: inline-block;
   width: 100%;
   text-align: center;
   padding: 10px 0;
@@ -1013,7 +1019,7 @@ export default {
   border-radius: 40px;
   text-decoration: none;
   font-weight: 500;
-  margin-top: 10px;
+  margin-top: auto;
 }
 
 @media (max-width: 768px) {
